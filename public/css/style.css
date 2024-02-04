@@ -1,0 +1,106 @@
+.descriptionCon{
+    position: relative;
+}
+.description {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-size: 3vw;
+}
+.descriptionP{
+    position: relative;
+    right: 35%;
+    font-size: 2vw;
+}
+
+.poemfont{
+    font-size: 2.9vw;
+}
+
+ .img-h{
+
+    position: relative;
+    top: 15%;
+ }
+
+.img-s{
+    position: relative;
+    left: 1vw;
+    width: 30%;
+    height: 30%;
+    filter: drop-shadow(4px 4px 6px black);
+}
+
+
+.tabletex{
+    position: relative;
+    right:10vw;
+}
+
+.heart{
+    width: 70px;
+    height: 70px;
+    background:red;
+    position: relative;
+    top: 60vw;
+    transform: rotate(-45deg);
+    box-shadow: -10px 10px 90px red;
+    animation: heart 0.6s linear infinite;
+}
+@keyframes heart{
+    0%{
+        transform: rotate(-45deg) scale(1.07);
+    }
+    80%{
+        transform: rotate(-45deg) scale(1.0);
+    }
+    100%{
+        transform: rotate(-45deg) scale(0.8);
+    }
+    
+}
+.heart::before{
+    content: '';
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top:-30px;
+    left: -0.5;
+    background: red;
+    border-radius: 50px;
+    box-shadow: -10px -10px 90px red;
+
+}
+.heart::after{
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 70px;
+    height: 70px;
+    background: red;
+    transform: rotate(90deg);
+    border-radius: 50px;
+    box-shadow: 10px 10px 90px red;
+
+}
+
+.acceptance{
+
+    position:relative;
+    top: 90vw;
+    left: 30vw;
+}
+
+body{
+    background-color: #FDF0D1;
+    color: #643843;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style:normal;
+}
+
+.img-br{
+    border:4mm ridge #85586fb3;
+}
+
+  
